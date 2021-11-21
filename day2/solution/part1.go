@@ -9,7 +9,7 @@ import (
 func Solve1() {
 	currentNumber := 5
 	var bathroomCode []int
-	input, _ := utils.ReadLines("./input.txt")
+	input, _ := utils.ReadLines("./input/input")
 
 	for _, instructions := range input {
 		//fmt.Println(instructions)
@@ -55,7 +55,7 @@ func Solve1() {
 func Solve2() {
 	currentChar := 'B'
 	var bathroomCode []rune
-	input, _ := utils.ReadLines("./input.txt")
+	input, _ := utils.ReadLines("./input/input")
 
 	for _, instructions := range input {
 		//fmt.Println(instructions)
